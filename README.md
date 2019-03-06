@@ -13,7 +13,7 @@ and then access through localhost:3000 in your browser.
 
 ## Run interactively, mounted to current directory
 
-`docker run -v `pwd`:`pwd` -w `pwd` -p 3000:8080 -i -t pedwink/pyroot-notebook`
+``docker run -v `pwd`:`pwd` -w `pwd` -p 3000:8080 -i -t pedwink/pyroot-notebook``
 
 and then access through localhost:3000 in your browser.
 
