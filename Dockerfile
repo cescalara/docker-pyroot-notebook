@@ -1,8 +1,9 @@
 FROM rootproject/root-fedora
 
 WORKDIR /work
-# RUN python3 -m pip install --upgrade pip # This causes error, skipping
 
+RUN python -m pip install rootpy
+RUN python3 -m pip install rootpy
 RUN python3 -m pip install jupyter # install jupyter
 RUN python3 -m pip install prompt-toolkit==1.0.15 # deal with prompt-toolkit issue (downgrade)
 

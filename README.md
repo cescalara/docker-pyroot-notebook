@@ -6,3 +6,5 @@ Run with e.g.
 
 and then access through localhost:3000 in your browser.
 The Dockerfile lives here: https://github.com/sidebo/docker-pyroot-notebook
+
+Now with `rootpy` installed for both python 2 and 3!
